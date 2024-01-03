@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Glitch&display=swap');
+
+body {
+    background-image: url(./fundo-preto-larajna.png);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+
+    font-family: 'Bungee Spice', Arial, Helvetica, sans-serif;
+    color: rgb(231, 99, 0);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(32, 32, 31);
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(231, 99, 0);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+/*menu hambuguer pra estilizar e utilizar com javascript*/
+.menu-icon {
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 50px;
+    align-self: flex-end;
+    right: 30px;
+    /* Posiciona o menu no final do cabeçalho */
+}
+
+
+.logo-gamer img {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 20px;
+    z-index: 1001;
+    /* Coloca o logo acima do h1 */
+}
+
+.criar-conta p {
+
+    color: #fff;
+}
+
+.criar-conta a {
+    color: #ff7708;
+    text-decoration: none;
+}
+
+#left-container {
+    margin: 120px 50px 50px 50px;
+    flex: 1;
+    padding: 20px;
+    width: 28rem;
+    height: 28rem;
+}
+
+#right-container {
+    flex: 1;
+    text-align: center;
+    margin-top: 80px;
+    /* Ajuste conforme necessário para evitar sobreposição com o cabeçalho */
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    max-width: 22rem;
+    margin: auto;
+    padding: 20px;
+    background-color: #1d1c1c;
+    box-shadow: 0 0 10px rgb(231, 99, 0);
+    border-radius: 2rem;
+}
+
+#login-form label {
+    color: #c0702f;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 5rem;
+    border: 1px solid #808080;
+    outline: none;
+}
+
+#login-form button {
+    background-color: #c0702f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 8rem;
+}
+
+#login-form button:hover {
+    background-color: #ff7708;
+}
+
+#right-container img {
+   width: 55%;
+   height: auto;
+   padding-right: 100px;
+}
+
+.logo img {
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
