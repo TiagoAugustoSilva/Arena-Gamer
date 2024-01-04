@@ -1,2 +1,2 @@
-###  Somente HTML5 e CSS#
+###  Somente HTML e CSS
 ![Alt Text](Arena-gamer.png)
